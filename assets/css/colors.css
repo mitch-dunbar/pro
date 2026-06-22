@@ -1,0 +1,51 @@
+/* ==========================================================================
+   CANDY COLOR PALETTE CORE LIBRARY (colors.css)
+   ========================================================================== */
+
+:root {
+    /* --- Original Core Candy Palette --- */
+    --light-green: #72F7A0;
+    --watermelon: #ED264D;
+    --baby-blue-ice: #7CB8FF;
+    --royal-gold: #F9DD5C;
+    --neon-violet: #C64DEC;
+    --jet-black: #282C34;
+    --onyx: #131418;
+    --black: #05060A;
+    --alabaster-grey: #DEDFE3;
+    --pale-slate: #C4C8D2;
+
+    /* --- Sweet UI Theme Extensions --- */
+    --sweet-lime: #71f79f;
+    --sweet-orange: #ff6a00;
+    --sweet-cyan: #00c1e4;
+    --sweet-teal: #00e8c6;
+    --sweet-mint: #43d6b5;
+    --sweet-indigo: #2a4dc1;
+    
+    /* --- Saturated Palette Accents (Sweet SCSS Extract) --- */
+    --strawberry-300: #ed5353;
+    --strawberry-500: #c6262e;
+    --orange-300: #ffa154;
+    --orange-500: #f37329;
+    --banana-300: #ffe16b;
+    --banana-500: #f9c440;
+    --lime-300: #9bdb4d;
+    --lime-500: #68b723;
+    --mint-300: #43d6b5;
+    --mint-500: #28bca3;
+    --blueberry-300: #64baff;
+    --blueberry-500: #3689e6;
+    --bubblegum-300: #f4679d;
+    --bubblegum-500: #de3e80;
+    --grape-300: #cd9ef7;
+    --grape-500: #a56de2;
+    
+    /* --- System Grays & Surfacings --- */
+    --silver-100: #fafafa;
+    --silver-500: #abacae;
+    --slate-300: #667885;
+    --slate-500: #485a6c;
+    --slate-700: #273445;
+    --slate-900: #0e141f;
+}

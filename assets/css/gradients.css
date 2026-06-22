@@ -1,0 +1,45 @@
+/* ==========================================================================
+   CANDY PALETTE - GRADIENT EXTENSION LIBRARY (gradients.css)
+   ========================================================================== */
+
+@import url('colors.css');
+
+:root {
+    /* --- Row 1: Soft Pastels & Warm Radiance --- */
+    --cg-r1c1-mint-cream: linear-gradient(135deg, #73d1d3 0%, #badcc3 50%, #dba380 100%);
+    --cg-r1c2-coral-sunset: linear-gradient(135deg, #dd528d 0%, #ff8c79 50%, #fbae52 100%);
+    --cg-r1c3-teal-sand: linear-gradient(135deg, #1e7883 0%, #a9bdbb 50%, #ee7256 100%);
+    --cg-r1c4-crimson-dusk: linear-gradient(135deg, #3d156b 0%, #df3562 50%, #feb97e 100%);
+    --cg-r1c5-neon-orchid: linear-gradient(135deg, #560ea2 0%, #c78dc7 50%, #f496a6 100%);
+    --cg-r1c6-burning-amber: linear-gradient(135deg, #383f75 0%, #ff723a 50%, #ee2e21 100%);
+
+    /* --- Row 2: Deep Contrast & Vivid Fusions --- */
+    --cg-r2c1-forest-gold: linear-gradient(135deg, #113035 0%, #a7cb8e 50%, #f3a332 100%);
+    --cg-r2c2-velvet-marigold: linear-gradient(135deg, #f8bf54 0%, #ec5544 50%, #9120a6 100%);
+    --cg-r2c3-berry-burst: linear-gradient(135deg, #fd475e 0%, #c4659f 50%, #7d8afa 100%);
+    --cg-r2c4-electric-lime: linear-gradient(135deg, #40ffca 0%, #9a76a4 50%, #da0e7f 100%);
+    --cg-r2c5-midnight-amethyst: linear-gradient(135deg, #580c4a 0%, #e68caf 50%, #6a47c7 100%);
+    --cg-r2c6-cyber-cyan: linear-gradient(135deg, #383f75 0%, #a686f7 50%, #f1796c 100%);
+
+    /* --- Row 3: Cosmic Hues & Vibrant Auroras --- */
+    --cg-r3c1-bubblegum-ice: linear-gradient(135deg, #4abdfb 0%, #ad5adc 50%, #f1b5e7 100%);
+    --cg-r3c2-royal-indigo: linear-gradient(135deg, #2a4dc1 0%, #5698e2 50%, #935bca 100%);
+    --cg-r3c3-magenta-haze: linear-gradient(135deg, #f47595 0%, #b15a9a 50%, #643ba2 100%);
+    --cg-r3c4-ocean-neon: linear-gradient(135deg, #47c3fd 0%, #40ffca 50%, #950ece 100%);
+    --cg-r3c5-sky-violet: linear-gradient(135deg, #5ee0d3 0%, #a686f7 50%, #6a47c7 100%);
+    --cg-r3c6-golden-purple: linear-gradient(135deg, #fccd18 0%, #eb7195 50%, #8c1bab 100%);
+
+    /* --- Sweet UI Theme Special High-Glow Tab Gradients --- */
+    --cg-sweet-neon: linear-gradient(90deg, #00f17d 0%, #00f7d2 100%);
+    --cg-sweet-fiery: linear-gradient(90deg, var(--sweet-orange) 0%, var(--watermelon) 100%);
+    --cg-sweet-cosmic: linear-gradient(135deg, var(--neon-violet) 0%, var(--sweet-cyan) 100%);
+}
+
+.bg-sweet-neon { background: var(--cg-sweet-neon); }
+.bg-sweet-fiery { background: var(--cg-sweet-fiery); }
+.bg-sweet-cosmic { background: var(--cg-sweet-cosmic); }
+
+.text-gradient {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}

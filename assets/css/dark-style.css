@@ -1,0 +1,49 @@
+/* ==========================================================================
+   DARK-STYLE OVERRIDE CONFIGURATION (dark-style.css)
+   ========================================================================== */
+
+@import url('style.css');
+
+body {
+    background-color: var(--black);
+    color: var(--alabaster-grey);
+}
+
+h1, h2, h3, h4 {
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: rgba(5, 6, 10, 0.85);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.nav-link {
+    color: var(--pale-slate);
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--sweet-lime);
+}
+
+.card {
+    background: var(--onyx);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    border-color: var(--sweet-cyan);
+    box-shadow: 0 0 15px rgba(0, 193, 228, 0.2);
+}
+
+.form-input {
+    background-color: var(--jet-black);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.form-input:focus {
+    border-color: var(--sweet-teal);
+    box-shadow: 0 0 0 3px rgba(0, 232, 198, 0.2);
+}
